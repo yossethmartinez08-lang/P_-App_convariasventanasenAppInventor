@@ -1,89 +1,61 @@
-<doctype html>
-
+<!DOCTYPE html>
 <html lang="es">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Práctica 1 - App Web</title>
-
+<title>App de Videojuegos</title>
 <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
 
-<div class="app">
-
-<header class="encabezado">
-
-<h1>Mi App Web</h1>
-
-<p>Práctica 1 - Sub 2</p>
-
+<header>
+<h1>App de Videojuegos</h1>
+<p>Alumno: Yosseth Martínez</p>
 </header>
 
+<nav class="menu">
+<a href="#inicio">Inicio</a>
+<a href="#juego">Videojuego Favorito</a>
+<a href="#personaje">Personaje Favorito</a>
+</nav>
 
-<section class="tarjeta perfil">
-
-<img width="300" src="y2.jpg">
-
-
-
-<h2>Alumno</h2>
-
-<p>Yosseth Hernández Martínez</p>
-
-</section>
-
-
-<section class="tarjeta menu">
-
-<h2>Opciones</h2>
-
-<button>Inicio</button>
-
-<button>Perfil</button>
-
-<button>Tareas</button>
-
-<button>Ajustes</button>
-
-</section>
-
-
-
-
-<section class="tarjeta info">
-
+<section id="inicio" class="pantalla">
 <h2>Bienvenido</h2>
+<p>En esta aplicación encontrarás información sobre mi videojuego y personaje favorito.</p>
+
+<img src="https://cdn.pixabay.com/photo/2016/11/29/09/08/controller-1867121_1280.jpg">
+</section>
+
+
+<section id="juego" class="pantalla">
+<h2>Videojuego Favorito</h2>
+
+<img src="https://cdn.pixabay.com/photo/2020/04/14/07/47/fortnite-5037444_1280.jpg">
 
 <p>
-
-Esta es una página web responsiva con apariencia de app móvil.
-
-Su diseño se adapta a la pantalla del celular o laptop.
-
+Mi videojuego favorito es Fortnite. Es un juego de batalla donde los jugadores compiten para ser el último sobreviviente.
 </p>
 
+<a href="#inicio" class="boton">Regresar</a>
 </section>
 
 
-<footer class="barra-inferior">
+<section id="personaje" class="pantalla">
+<h2>Personaje Favorito</h2>
 
-<span>ðŸ� </span>
+<img src="https://cdn.pixabay.com/photo/2019/06/12/19/42/gamer-4270595_1280.jpg">
 
-<span>ðŸ“‹</span>
+<p>
+Uno de mis personajes favoritos es un guerrero que lucha contra enemigos y completa misiones.
+</p>
 
-<span>âš™ï¸�</span>
+<a href="#inicio" class="boton">Regresar</a>
+</section>
 
+<footer>
+<p>Proyecto escolar</p>
 </footer>
 
-</div>
-
 </body>
-
 </html>
