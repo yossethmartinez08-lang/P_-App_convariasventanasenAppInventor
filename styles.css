@@ -1,208 +1,65 @@
-{
-
-margin: 0;
-
-padding: 0;
-
-box-sizing: border-box;
-
+body{
 font-family: Arial, sans-serif;
-
+margin:0;
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+color:white;
+text-align:center;
 }
 
-
-body {
-
-background: linear-gradient(135deg, #1e3c72, #2a5298);
-
-min-height: 100vh;
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-padding: 20px;
-
+header{
+background:#111;
+padding:20px;
 }
 
-
-.app {
-
-width: 100%;
-
-max-width: 380px;
-
-background: #ffffff;
-
-border-radius: 25px;
-
-padding: 20px;
-
-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
-
+header h1{
+margin:0;
+font-size:40px;
 }
 
-
-.encabezado {
-
-text-align: center;
-
-margin-bottom: 20px;
-
+.menu{
+background:#222;
+padding:15px;
 }
 
-
-.encabezado h1 {
-
-font-size: 1.8rem;
-
-color: #1e3c72;
-
+.menu a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:10px 20px;
+background:#ff4b2b;
+border-radius:8px;
+transition:0.3s;
 }
 
-
-.encabezado p {
-
-color: #666;
-
-font-size: 0.95rem;
-
+.menu a:hover{
+background:#ff784e;
 }
 
-
-.tarjeta {
-
-background: #f4f6fb;
-
-border-radius: 18px;
-
-padding: 15px;
-
-margin-bottom: 15px;
-
+.pantalla{
+padding:40px;
 }
 
-
-.perfil {
-
-text-align: center;
-
+.pantalla img{
+width:300px;
+border-radius:10px;
+margin:20px 0;
 }
 
-
-.perfil img {
-
-width: 80px;
-
-margin-bottom: 10px;
-
+.boton{
+display:inline-block;
+padding:10px 20px;
+background:#111;
+color:white;
+text-decoration:none;
+border-radius:8px;
 }
 
-
-.perfil h2 {
-
-color: #1e3c72;
-
-margin-bottom: 5px;
-
+.boton:hover{
+background:#333;
 }
 
-
-.menu h2,
-
-.info h2 {
-
-margin-bottom: 10px;
-
-color: #1e3c72;
-
-}
-
-
-.menu button {
-
-width: 100%;
-
-padding: 12px;
-
-margin-bottom: 8px;
-
-border: none;
-
-border-radius: 12px;
-
-background: #2a5298;
-
-color: white;
-
-font-size: 1rem;
-
-cursor: pointer;
-
-}
-
-
-.menu button:hover {
-
-background: #1e3c72;
-
-}
-
-
-.info p {
-
-color: #444;
-
-line-height: 1.5;
-
-}
-
-
-.barra-inferior {
-
-display: flex;
-
-justify-content: space-around;
-
-background: #2a5298;
-
-color: white;
-
-padding: 12px;
-
-border-radius: 15px;
-
-font-size: 1.3rem;
-
-}
-
-
-@media (max-width: 480px) {
-
-.app {
-
-max-width: 100%;
-
-border-radius: 20px;
-
-padding: 15px;
-
-}
-
-
-.encabezado h1 {
-
-font-size: 1.5rem;
-
-}
-
-
-.menu button {
-
-font-size: 0.95rem;
-
-}
-
+footer{
+background:#111;
+padding:15px;
+margin-top:40px;
 }
